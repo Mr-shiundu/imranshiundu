@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Imran Shiundu - Website Developer. Get in touch for custom websites, responsive designs, and ongoing support.">
+        <meta name="keywords" content="Imran Shiundu, website developer, portfolio, web development, responsive design, website maintenance">
+        <meta name="author" content="Imran Shiundu">
+    
+        <!-- Social Media Meta Tags -->
+        <meta property="og:title" content="Imran Shiundu - Website Developer">
+        <meta property="og:description" content="Explore the portfolio of Imran Shiundu, a skilled website developer with a passion for building custom websites and offering ongoing support.">
+        <meta property="og:image" content="images/og-image.jpg">
+        <meta property="og:url" content="https://www.imranshiundu.com">
+        <meta name="twitter:title" content="Imran Shiundu - Website Developer">
+        <meta name="twitter:description" content="Explore the portfolio of Imran Shiundu, a skilled website developer with a passion for building custom websites and offering ongoing support.">
+        <meta name="twitter:image" content="images/og-image.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+    
+        <!-- Robots Meta Tag for SEO -->
+        <meta name="robots" content="index, follow">
+    
+        <!-- Title -->
+        <title>Imran Shiundu - Website Developer</title>
+    
+        <!-- Favicon -->
+        <link href="images/imran.png" rel="icon" type="image/png">
+    
+        <!-- External Icon Library -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/wa.css">
+        <link rel="stylesheet" href="css/cursor.css">
+    
+        <!-- Apple Touch Icon (For iOS devices) -->
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+        <!-- Viewport Scaling for Webkit Browsers -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    </head>
+       
+<body>
+   
+    <section class="Portfolio" id="Portfolio">
+        <h2 class="heading">Other <span>Projects</span></h2>
+    
+        <div class="Portfolio-container">
+            <!-- Project 1 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/jabali.png" alt="Jabali Collections">
+                <div class="Portfolio-layer">
+                    <h4>Jabali Collections</h4>
+                    <p class="description">Discover a luxurious fragrance experience with our exclusive perfume collection.</p>
+                    <a href="https://jabal-collections.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i> 
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/pakiro.jpeg" alt="Pakiro Tax Clinic">
+                <div class="Portfolio-layer">
+                    <h4>Pakiro Tax Clinic</h4>
+                    <p class="description">Simplifying tax solutions with expert advice and personalized services.</p>
+                    <a href="https://narmi-designs.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/imart.png" alt="I-Mart">
+                <div class="Portfolio-layer">
+                    <h4>I-Mart</h4>
+                    <p class="description">Your local delivery service, bringing products right to your doorstep.</p>
+                    <a href="https://i-mart.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/shenibtech.png" alt="Shenib Tech RKS">
+                <div class="Portfolio-layer">
+                    <h4>Shenib Tech Record Keeping System</h4>
+                    <p class="description">Streamlining agricultural operations through a reliable record-keeping system.</p>
+                    <a href="https://shenibtech-rks.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i> 
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Project 5 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/to-do-list.png" alt="To-Do List">
+                <div class="Portfolio-layer">
+                    <h4>To-Do List</h4>
+                    <p class="description">Stay organized and productive with a simple, intuitive to-do list app.</p>
+                    <a href="https://is-to-do-list.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Project 6 -->
+            <div class="Portfolio-box">
+                <img src="images/projects/narmicode.png" alt="NarmiCode">
+                <div class="Portfolio-layer">
+                    <h4>NarmiCode</h4>
+                    <p class="description">Providing businesses with tailored software solutions that drive success.</p>
+                    <a href="https://narmicode.netlify.app/" class="view-link" target="_blank">
+                        <i class='bx bx-link-external'></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    // Initialize EmailJS with your Public Key
+    (function() {
+      emailjs.init("v1r45UrQk7hpfZ1jz"); // Replace with your actual Public Key
+    })();
+    
+    // Handle form submission
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent default form submission
+    
+        // Collect form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+    
+        // Validate that all fields are filled
+        if (name && email && phone && message) {
+            // Prepare template parameters
+            const templateParams = {
+                to_name: "Imran", // The recipient's name
+                from_name: name, // Sender's name
+                from_email: email, // Sender's email address
+                phone: phone, // Sender's phone number
+                subject: subject, // Subject of the email
+                message: message // The message content
+            };
+    
+            // Send the email using EmailJS
+            emailjs.send('service_kq04ikk', 'template_n52y24i', templateParams)  // Use your Service ID and Template ID
+                .then(function(response) {
+                    console.log('SUCCESS!', response);
+                    alert("Your message has been sent successfully!");
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert("Oops! Something went wrong. Please try again.");
+                });
+    
+            // Clear the form after submission
+            document.getElementById('contact-form').reset();
+        } else {
+            alert("Please fill in all fields.");
+        }
+    });
+    </script>
+    
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    
+    <style>
+        .contact h2 {
+            margin-bottom: 3rem;
+        }
+    
+        .contact form {
+            max-width: 70rem;
+            margin: 1rem auto;
+            margin-bottom: 3rem;
+        }
+    
+        .contact form .input-box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    
+        .contact form .input-box input,
+        .contact form textarea {
+            width: 100%;
+            padding: 2rem;
+            font-size: 2rem;
+            color: var(--text-color);
+            background: var(--second-bg-color);
+            border-radius: .8rem;
+            margin: .9rem 0;
+        }
+    
+        .contact form .input-box input {
+            width: 49%;
+        }
+    
+        .contact form textarea {
+            resize: none;
+        }
+    
+        .contact form .btn {
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+    </style>
+    
+    
+<!-- Floating WhatsApp Icon -->
+<div class="whatsapp-icon">
+<a href="javascript:void(0);" onclick="openWhatsAppMessageBox()">
+ <img src="icon/whatsapp.png" alt="Chat with us on WhatsApp" />
+</a>
+</div>
+
+<!-- WhatsApp Message Box -->
+<div class="whatsapp-message-box" id="whatsapp-message-box">
+<div class="message-box-header">
+ <span>Message us on WhatsApp</span>
+ <button class="close-btn" onclick="closeWhatsAppMessageBox()">X</button>
+</div>
+<textarea id="whatsapp-message" placeholder="Type your message here..."></textarea>
+<button class="send-btn" onclick="sendWhatsAppMessage()">Send</button>
+</div>
+
+<!-- Floating Email Icon -->
+<div class="email-icon">
+<a href="javascript:void(0);" onclick="openEmailMessageBox()">
+ <img src="icon/communication.png" alt="Email us" />
+</a>
+</div>
+
+<!-- Email Message Box -->
+<div class="email-message-box" id="email-message-box">
+<div class="message-box-header">
+ <span>Send us an Email</span>
+ <button class="close-btn" onclick="closeEmailMessageBox()">X</button>
+</div>
+<textarea id="email-message" placeholder="Type your email message here..."></textarea>
+<button class="send-btn" onclick="sendEmailMessage()">Send</button>
+</div>
+
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Imran Shiundu | All Rights Reserved.</p>
+        </div>
+        <div class="footer-text">
+            <div class="footer-iconTop">
+                <i class='bx bxs-phone'></i>
+                <p><a href="tel:+254740293859">+254 740 293 859</a></p>
+            </div>
+            <div class="footer-iconTop">
+                <i class='bx bxs-envelope'></i>
+                <p><a href="mailto:imranshiundu@gmail.com?subject=Web Developer Inquiry&body=Hello Imran, I am interested in your web development services.">imranshiundu@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-iconTop">
+            <a href="index.html"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/wa.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- GSAP Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+<!-- ScrollTrigger Plugin (Required for scroll-based animations) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/gsap.js"></script>
+<script src="js/cursor.js"></script>
+
+</body>
+</html>
